@@ -1,0 +1,249 @@
+.overlordbanner {
+  width: 100%;
+  height: auto;
+  border-bottom: 4px solid #6c3677;
+}
+
+.logooverlord1 {
+  width: 20%;
+    height: auto;
+    border: 4px solid #6c3677;
+    position: relative;
+    bottom: 80px;
+    left: 3%;
+}
+
+.mangaoverlord {
+  position: relative;
+    bottom: 70px;
+    left: 5%;
+    width: 90%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mangaoverlord1 {
+  position: relative;
+  bottom: 70px;
+  left: 5%;
+  width: 90%;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h4 {
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+
+.synopsisoverlord {
+  background-color: #6c3677;
+  border-radius: 10px;
+  padding: 2%;
+  border: 2px solid black;
+  color: white;
+  text-align: justify;
+  font-size: 17px;
+  position: relative;
+  bottom: 30px;
+  left: 3%;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.personnages {
+  background-color: rgb(107, 105, 105);
+  border-top: 3px solid black;
+  margin-top: 4%;
+}
+
+.personnagesoverlord {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  position: relative;
+  bottom: 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerpersos {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: stretch;
+}
+
+.container {
+  background-color: #FFFFFD;
+  width: 40%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  margin: 1%;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.ainz {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.ainzp {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.albedo {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.albedop {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.shalltear {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.shalltearp {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.cocytus {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.cocytusp {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.demiurge {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.demiurgep {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.sebas {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.sebasp {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.aurabella {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.aurabellap {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.marebello {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.marebellop {
+  font-size: 100%;
+  color: rgb(49, 45, 45);
+  text-align: justify;
+}
+
+.trailer {
+  background-color: rgb(49, 45, 45);
+}
+
+.titretrailer {
+  text-align: center;
+  border-top: 3px solid black;
+  color: white;
+  font-size: 200%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 2%;
+  margin-top: 0;
+}
+
+video {
+  width: 90%;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.boutonoverlord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.retouroverlord {
+  background-color: #6c3677;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 5px 5px black;
+  text-align: center;
+  text-decoration: none;
+}

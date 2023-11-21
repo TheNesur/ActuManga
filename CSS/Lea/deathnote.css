@@ -1,0 +1,221 @@
+.deathnotebanner {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid black;
+}
+
+.logodeathnote1 {
+    width: 20%;
+    height: auto;
+    border: 4px solid black;
+    position: relative;
+    bottom: 80px;
+    left: 3%;
+}
+
+.mangadeathnote {
+    position: relative;
+    bottom: 70px;
+    left: 5%;
+    width: 90%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mangadeathnote1 {
+    position: relative;
+    bottom: 70px;
+    left: 5%;
+    width: 90%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+h4 {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+.synopsisdeathnote {
+    background-color: rgb(49, 45, 45);
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid black;
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+    position: relative;
+    bottom: 30px;
+    left: 3%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.personnages {
+    background-color: rgb(107, 105, 105);
+    border-top: 3px solid black;
+    margin-top: 4%;
+}
+
+.personnagesdeathnote {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    position: relative;
+    bottom: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerpersos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: stretch;
+}
+
+.container {
+    background-color: #FFFFFD;
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.light {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.lightp {
+    font-size: 100%;
+    color: rgb(49, 45, 45);
+    text-align: justify;
+}
+
+.L {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.Lp {
+    font-size: 100%;
+    color: rgb(49, 45, 45);
+    text-align: justify;
+}
+
+.ryuk {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.ryukp {
+    font-size: 100%;
+    color: rgb(49, 45, 45);
+    text-align: justify;
+}
+
+.misa {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.misap {
+    font-size: 100%;
+    color: rgb(49, 45, 45);
+    text-align: justify;
+}
+
+.soichiro {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.soichirop {
+    font-size: 100%;
+    color: rgb(49, 45, 45);
+    text-align: justify;
+}
+
+.near {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.nearp {
+    font-size: 100%;
+    color: rgb(49, 45, 45);
+    text-align: justify;
+}
+
+.trailer {
+    background-color: rgb(49, 45, 45);
+}
+
+.titretrailer {
+    text-align: center;
+    border-top: 3px solid black;
+    color: white;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2%;
+}
+
+video {
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.boutondeathnote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.retourdeathnote {
+    background-color: rgb(34, 31, 31);
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px black;
+    text-align: center;
+    text-decoration: none;
+}
+

@@ -1,202 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ActuManga</title>
-
-    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/mangas.css">
-    
-    <link rel="shortcut icon" href="img/logo-actumanga-removebg-preview.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/Arthur/style.css">
+    <link rel="stylesheet" href="CSS/Arthur/HeaderM.css">
+    <!-- <link rel="stylesheet" href="CSS/header.css"> -->
+    <link rel="stylesheet" href="CSS/Arthur/index-anim.css">
+    <title>Document</title>
 </head>
+
+
+<!--
+<header>
+    <div id="menu-nav">
+        <nav>
+            <ul>
+                <li><img id="menu-nav-logo" src="./images/logo.jpeg"></li>
+                <li><h1 id="h1-nav">ActuManga</h1></li>
+                <li><a class="button" href="#">Acceuil</a></li>
+                <li><a class="button" href="#">Mangas</a></li>
+                <li><a class="button" href="#">Studios</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+-->
+
+<header>
+    <p class="header-title"><img src="img/arthur/logoactumanga2.png"></p>
+    <nav class="header-nav">
+        <ul class="header-nav-ul">
+            <li class="header-nav-ul-li"><a href="index.html" class="header-nav-ul-li-a">Accueil</a></li>
+            <li class="header-nav-ul-li"><a href="anime-list.html" class="header-nav-ul-li-a">Mangas</a></li>
+            <li class="header-nav-ul-li"><a href="#" class="header-nav-ul-li-a">Studios</a></li>
+        </ul>
+    </nav>
+</header>
+
 <body>
-    
-    <header>
-        <p class="header-title"><img src="img/logo-Actu_Manga-white.png"></p>
-        <nav class="header-nav">
-            <ul class="header-nav-ul">
-                <li class="header-nav-ul-li"><a href="#" class="header-nav-ul-li-a">Accueil</a></li>
-                <li class="header-nav-ul-li"><a href="pages/anime-hxh.html" class="header-nav-ul-li-a">Mangas</a></li>
-                <li class="header-nav-ul-li"><a href="pages/studio-nipponanimation.html" class="header-nav-ul-li-a">Studios</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <div id="menu-img">
-        <img id="menu-img-manga" src="img/pages arthure/web-tete.jpg"> 
-    </div>
-
-    <div id="body-index">
-        <div class="box-sortie">
-            <h1>Les grosses sorties d'<span class="box-sortie-h1-titre">anime</span> du moment</h1>
-
-            <div class="box-sortie-logo-manga">
-                <a href="../site/pages/"><img src="img/mangas/demonslayer/logo-demon-slayer.jpg" alt="Demon slayer"></a>
-                <a href="../site/pages/anime-hxh.html"><img src="img/mangas/hxh/logo-hxh-vertical.jpg" alt="Hunter x Hunter"></a>
-                <a href="../site/pages/#"><img src="img/mangas/fairytail/logo-fairy-tail.png" alt="Fairy Tail"></a>
-                <a href="../site/pages/#"><img  src="img/mangas/overlord/logo-overlord.jpg" alt="Overlord"></a>
-            
-            
-            
-                <div class="box-sortie-manga">
-                
-                    <!-- <img src="img/mangas/demonslayer/logo-demon-slayer.jpg" alt="Demon slayer"> -->
-                    <div class="box-sortie-manga-info">
-                        <h1>Demon Slayer</h1>
-                        <p><b>
-                            Dans un Japon de l'ère Taishō, Tanjirō Kamado est le premier enfant d'une famille de marchands de charbon dont le père est décédé :
-                            pour subvenir aux besoins de celle-ci, il vend du charbon de bois au village en contrebas de la montagne. 
-                            Malgré les difficultés de la vie, ils réussissent à trouver un peu de bonheur dans leur quotidien.
-                        
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Dark fantasy, Dram, Jiday-Geki, Nekkestu, Surnaturel, Horreur
-                        </p>
+    <section>       <!-- Titre + image -->
+        <div id="img-acceuil"></div>
+        <div id="cadre">
+            <div id="cadre-title">
+                <h1>ActuManga</h1>
+            </div>
+        </div>
+    </section>
+    <div id="body-center">
+        <section id="body-who" >        <!-- Qui sommes-nous? -->
+            <h1>Qui sommes-nous?</h1>
+            <p>ActuManga est un site d'informations traitant sur les univers manga et animé lancé le 10 octobre 2023.</p>
+            <p>Notre équipe, constituée de grands fans de pop culture, met tout en oeuvre pour vous fournir le meilleur de l'actualité de ces différents univers, et vous propose des dossiers, des critiques, et des consels afin de vous faire découvrir de nouvelles oeuvres !</p>
+        </section>
+        <section id="les-sorties">       <!-- Sortie moment -->
+            <h1 id="sm">Les grosses sorties du moment</h1>
+            <div id="texte-image">
+                <div id="sm-demonslayer" class="para azerty1">
+                    <h1>Demon Slayer</h1>
+                    <div class="sm-img"><a href="#"><img  src="img/arthur/DemonSlayer.jpg" alt="Demon slayer"></a></div>
+                    <div class="sm-txt">
+                        <p>Depuis les temps anciens, il existe des rumeurs concernant des démons mangeurs d'hommes qui se cachent dans les bois. Pour cette raison, les citadins locaux ne s'y aventurent jamais la nuit. La légende raconte aussi qu'un tueur de démons déambule la nuit, chassant ces démons assoiffés de sang. Pour le jeune Tanjirô, ces rumeurs vont bientôt devenir sa dure réalité ...</p>
+                        <p>Depuis la mort de son père, Tanjirô a pris sur lui pour subvenir aux besoins de sa famille. Malgré cette tragédie, ils réussissent à trouver un peu de bonheur au quotidien.</p>
+                        <p>Cependant, ce peu de bonheur se retrouve détruit le jour où Tanjirô découvre que sa famille s'est faite massacrer et que la seule survivante, sa sœur Nezuko, est devenue un démon. À sa grande surprise, Nezuko montre encore des signes d'émotion et de pensées humaines. Ainsi, commence la dure tâche de Tanjirô, celle de combattre les démons et de faire redevenir sa sœur humaine.</p>
+                        <p class="type-manga">Genres : Aventure - Fantastique - Historique - Surnaturel</p>
                     </div>
-                    <div class="box-sortie-manga-info">
-                        <h1>Hunter x Hunter</h1>
-                        <p><b>
-                            Gon Freecss est un jeune garçon âgé de 12 ans, rêvant de devenir hunter (chasseur en anglais). 
-                            Les hunters sont des citoyens d'élite autorisés à faire quasiment tout ce qu'ils souhaitent sur simple présentation de leur licence : 
-                            ils peuvent ainsi acquérir gratuitement tout objet à la vente sur les fonds de l'association, réquisitionner tout véhicule, 
-                            logement et outil pour leur travail et sont de facto habilités à exercer tous les métiers du monde, 
-                            pouvant tout aussi bien devenir chasseurs de primes, chefs-cuisinier, archéologues, zoologues, 
-                            justiciers ou consultants dans divers domaines. Son père, Ging Freecss, qu'il ne connaît pas directement, 
-                            est considéré comme un des plus grands hunters de son temps. C'est aussi pour le retrouver que Gon veut devenir hunter.
-                        
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Drame, Fantasy, Nekkestu
-                        </p>
+                </div>
+                <div id="sm-hxh" class="para azerty1">
+                    <h1>Hunter x Hunter</h1>
+                    <div class="sm-img"><a href="#"><img src="img/arthur/HunterxHunter.jpg" alt="HunterxHunter"></a></div>
+                    <div class="sm-txt">
+                        <p>Gon Freecss a presque douze ans, et rêve de devenir "Hunter" (chasseur en Japonais). Les Hunters sont des aventuriers d'élite qui peuvent être chasseurs de prime, chefs-cuisinier, archéologues, zoologues, justiciers ou consultants dans divers domaines. Son père, Jin Freecss, qu'il ne connaît pas directement, est l'un des plus grands Hunters de son temps. C'est aussi pour le retrouver que Gon veut devenir Hunter.</p>
+                        <p>Cependant l'Examen Hunter, qui a lieu chaque année, est extrêmement difficile et périlleux. On dit qu'un candidat sur 10 000 arrive sur le lieu des épreuves et que tous les 3 ans, un seul candidat devient hunter à sa première tentative. Durant les épreuves, il n'est pas rare d'être blessé, voir tué par des monstres, des pièges ou même d'autres concurrents...</p>
+                        <p class="type-manga">Genres : Aventure - Comédie - Drame - Fantasy - Shônen - Surnaturel</p>
                     </div>
-                    <div class="box-sortie-manga-info">
-                        <h1>Fairy Tail</h1>
-                        <p><b>
-                            L'histoire se focalise principalement sur les missions effectuées par l'une des équipes de la guilde Fairy Tail,
-                             composée de Natsu Dragnir (chasseur de dragon de feu), Lucy Heartfilia (constellationniste) et Happy 
-                             (un Exceed, chat bleu pouvant se faire apparaître des ailes, voler et parler), 
-                             qui seront très vite rejoints par Erza Scarlett (mage chevalier) et Grey Fullbuster (mage de glace), 
-                             deux autres membres de la fameuse guilde. Ils sont rejoints au cours de l'aventure par Carla 
-                             (une chatte blanche Exceed, comme Happy), Wendy (chasseuse de dragon céleste), et par bien d'autres.
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Comédie, Fantasy
-                        </p>
+                </div>
+                <div id="sm-fairytail" class="para azerty1">
+                    <h1>Fairytail</h1>
+                    <div class="sm-img"><a href="#"><img src="img/arthur/fairy_tail_1343.jpg" alt="fairytail"></a></div>
+                    <div class="sm-txt">
+                        <p>Lucy est une jeune magicienne de 16 ans à la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait régulièrement des magazines sur les guildes, et a finalement voulu en intégrer une. Dans ce but, elle est devenue magicienne des clés stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de clés.</p>
+                        <p>Lucy rêverait d'intégrer la glorieuse guilde de Fairy Tail, mais elle n'a aucune idée de leurs méthodes de recrutement, et a un peu peur face à la réputation de "guilde à problème" qu'elle traîne. Mais bien vite, elle laisse ses remords de côté lorsqu'un mage du feu prétend être de la guilde et l'invite à bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauvée par Natsu, un jeune homme qu'elle avait rencontré peu avant et qui, lui, est un véritable membre de la guilde.</p>
+                        <p class="type-manga">Genres : Action - Aventure - Comédie - Ecchi - Fantasy - Nekketsu</p>
                     </div>
-                    <div class="box-sortie-manga-info">
-                        <h1>Overlord</h1>
-                        <p><b>
-                            L'histoire débute en 2126 dans YGGDRASIL, un jeu de rôle virtuel en ligne ayant connu un succès phénoménal, 
-                            mais qui est à présent sur le point de fermer ses serveurs, après 12 ans d'existence. 
-                            Nous sommes en 2138 et YGGDRASIL est sur le point de disparaître à jamais. Pourtant, le personnage principal de l'histoire, 
-                            Momonga un nécromancien, mort vivant et maitre de la puissante guilde Ainz Ooal Gown, a beaucoup de mal à l'accepter. 
-                            Il n'a aucune famille, ni amis, ni de petite amie et ne trouve plus le moindre sens à vivre dans la "réalité".
-                        
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Dark fantasy
-                        </p>
+                </div>
+                    <div id="sm-overlord" class="para">
+                    <h1>Overlord</h1>
+                    <div class="sm-img"><a href="#"><img src="img/arthur/overlord.jpg" alt="Overlord"></a></div>
+                    <div class="sm-txt">
+                        <p>L'histoire débute dans un jeu qui se nomme Yggdrasil, le jeu le plus populaire du moment. Cependant ce dernier décide de fermer ses serveurs à minuit.</p>
+                        <p>Nous suivons alors un joueur sous le pseudonyme de Momonga. Ce dernier est le chef de la guilde et décide, tout seul, d'attendre jusqu'à la fermeture du jeu. Problème, alors que minuit vient de passer, notre cher Momonga est toujours dans le jeu.</p>
+                        <p>C'est alors qu'il remarque rapidement que ce n'est plus le jeu auquel il passait ses journées. Les commandes du jeux n'existent plus et les PNJ sont devenus des êtres ayant des sentiments et une existence qui leur sont propres.</p>
+                        <p>Bien que désorienté, Momonga prend rapidement les choses en main et décide de faire de son nom une légende grâce à ses Gardiens de niveaux.</p>
+                        <p class="type-manga">Genres : Action - Aventure - Fantasy - Isekai - Science-fiction</p>
                     </div>
                 </div>
             </div>
-
-        </div>
-
-
-        
-        <div class="box-sortie">
-            <h1>Les grosses sorties de <span class="box-sortie-h1-titre">manga</span> du moment</h1>
-
-            <div class="box-sortie-logo-manga">
-                <a href="../site/pages/mangas/#"><img src="img/mangas/demonslayer/logo-demon-slayer.jpg" alt="Demon slayer"></a>
-                <a href="../site/pages/mangas/manga-hxh.html"><img src="img/mangas/hxh/logo-hxh-vertical.jpg" alt="Hunter x Hunter"></a>
-                <a href="../site/pages/mangas/#"><img src="img/mangas/fairytail/logo-fairy-tail.png" alt="Fairy Tail"></a>
-                <a href="../site/pages/mangas/#"><img  src="img/mangas/overlord/logo-overlord.jpg" alt="Overlord"></a>
-
-
-                
-            
-                <div class="box-sortie-manga">
-                
-                    <!-- <img src="img/mangas/demonslayer/logo-demon-slayer.jpg" alt="Demon slayer"> -->
-                    <div class="box-sortie-manga-info">
-                        <h1>Demon Slayer</h1>
-                        <p><b>
-                            Dans un Japon de l'ère Taishō, Tanjirō Kamado est le premier enfant d'une famille de marchands de charbon dont le père est décédé :
-                            pour subvenir aux besoins de celle-ci, il vend du charbon de bois au village en contrebas de la montagne. 
-                            Malgré les difficultés de la vie, ils réussissent à trouver un peu de bonheur dans leur quotidien.
-                        
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Dark fantasy, Dram, Jiday-Geki, Nekkestu, Surnaturel, Horreur
-                        </p>
-                    </div>
-                    <div class="box-sortie-manga-info">
-                        <h1>Hunter x Hunter</h1>
-                        <p><b>
-                            Gon Freecss est un jeune garçon âgé de 12 ans, rêvant de devenir hunter (chasseur en anglais). 
-                            Les hunters sont des citoyens d'élite autorisés à faire quasiment tout ce qu'ils souhaitent sur simple présentation de leur licence : 
-                            ils peuvent ainsi acquérir gratuitement tout objet à la vente sur les fonds de l'association, réquisitionner tout véhicule, 
-                            logement et outil pour leur travail et sont de facto habilités à exercer tous les métiers du monde, 
-                            pouvant tout aussi bien devenir chasseurs de primes, chefs-cuisinier, archéologues, zoologues, 
-                            justiciers ou consultants dans divers domaines. Son père, Ging Freecss, qu'il ne connaît pas directement, 
-                            est considéré comme un des plus grands hunters de son temps. C'est aussi pour le retrouver que Gon veut devenir hunter.
-                        
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Drame, Fantasy, Nekkestu
-                        </p>
-                    </div>
-                    <div class="box-sortie-manga-info">
-                        <h1>Fairy Tail</h1>
-                        <p><b>
-                            L'histoire se focalise principalement sur les missions effectuées par l'une des équipes de la guilde Fairy Tail,
-                             composée de Natsu Dragnir (chasseur de dragon de feu), Lucy Heartfilia (constellationniste) et Happy 
-                             (un Exceed, chat bleu pouvant se faire apparaître des ailes, voler et parler), 
-                             qui seront très vite rejoints par Erza Scarlett (mage chevalier) et Grey Fullbuster (mage de glace), 
-                             deux autres membres de la fameuse guilde. Ils sont rejoints au cours de l'aventure par Carla 
-                             (une chatte blanche Exceed, comme Happy), Wendy (chasseuse de dragon céleste), et par bien d'autres.
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Comédie, Fantasy
-                        </p>
-                    </div>
-                    <div class="box-sortie-manga-info">
-                        <h1>Overlord</h1>
-                        <p><b>
-                            L'histoire débute en 2126 dans YGGDRASIL, un jeu de rôle virtuel en ligne ayant connu un succès phénoménal, 
-                            mais qui est à présent sur le point de fermer ses serveurs, après 12 ans d'existence. 
-                            Nous sommes en 2138 et YGGDRASIL est sur le point de disparaître à jamais. Pourtant, le personnage principal de l'histoire, 
-                            Momonga un nécromancien, mort vivant et maitre de la puissante guilde Ainz Ooal Gown, a beaucoup de mal à l'accepter. 
-                            Il n'a aucune famille, ni amis, ni de petite amie et ne trouve plus le moindre sens à vivre dans la "réalité".
-                        
-                        </b></p>
-                        <p>
-                            Genre: Action, Aventure, Dark fantasy
-                        </p>
-                    </div>
-                </div>
-
+        </section>
+        <section id="aaa">
+            <div>
+                <h1>BUT Passerelle</h1>
+                <h1>ActuManga</h1>
             </div>
-        </div>
+        </section>
+
     </div>
-
-
-
-    <footer>
-        <!-- <p class="footer-title">ActuManga</p> -->
-        <nav class="footer-nav">
-            <ul class="footer-nav-ul">
-                <li class="footer-nav-ul-li"><a href="http://iut-metz.univ-lorraine.fr/" class="footer-nav-ul-li-a">IUT Metz</a></li>
-                <li class="footer-nav-ul-li"><a href="#" class="footer-nav-ul-li-a">Projet GitHub</a></li>
-            </ul>
-        </nav>
-    </footer>
-
 </body>
 </html>

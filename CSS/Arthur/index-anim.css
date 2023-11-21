@@ -1,0 +1,38 @@
+
+
+@keyframes animation-trans {
+  3%  {opacity: 100%;z-index: 10;}
+  25% {opacity: 100%;z-index: 10;}
+  30% {opacity: 0%;z-index: 9;}
+  100%{opacity: 0%;z-index: 9;}
+}
+
+
+
+#sm-demonslayer{
+  animation-name: animation-trans;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#sm-hxh{
+  animation-name: animation-trans;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+#sm-fairytail{
+  animation-name: animation-trans;
+  animation-duration: 20s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+}
+
+#sm-overlord{
+  animation-name: animation-trans;
+  animation-duration: 20s;
+  animation-delay: 15s;
+  animation-iteration-count: infinite;
+}
+

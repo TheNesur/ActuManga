@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Kavoon;
+    src: url(./font/Kavoon.ttf);
+}
+
+
+/*----------------------*/
+
+
+*{
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Kavoon;
+}
+
+h1{
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 40px;
+  padding-bottom: 5px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.479));
+  text-shadow: 1px 1px 0 #303030CC, 1px -1px 0 #303030CC, -1px 1px 0 #303030CC, -1px -1px 0 #303030CC,
+1px 0 0 #303030CC, 0 1px 0 #303030CC, -1px 0 0 #303030CC, 0px -1px 0 #303030CC;
+}
+
+
+p{
+  color: #FFF;
+  padding-bottom: 5px;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 1px 1px #3a3a3a66, -1px -1px 1px #3a3a3a66, 1px -1px 1px #3a3a3a66, -1px 1px 1px #3a3a3a66  ;
+}
+
+@media screen and (min-width: 950px){
+  p{
+    font-size: 2em;
+  }
+}
+
+
+@media screen and (max-width: 951px){
+  p{
+    font-size: 1.5em;
+  }
+}
+
+
+/*-------------------------------BODY------------------------------*/
+
+/*-----------------CADRE----------------*/
+
+
+#img-acceuil{
+  background-image: initial;
+  background-image:  url('../../img/arthur/web-tete.jpg');
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+}
+
+#cadre{
+  height: 60px;
+}
+
+#cadre div{
+  border-radius: 15px;
+  width: 460px;
+  height: 100%;
+  margin: 0 0 0 75px;
+  top: -50px;
+  position: relative;
+  align-content: center;
+  background: #ffffff;
+}
+
+#cadre-title h1{
+  font-size: 70px;
+  letter-spacing: 1.5px;
+  padding: 1px 0 0 0;
+  text-align: center;
+  color: #ffffff;
+  filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+  text-shadow: 1px 1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000,
+1px 0 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 0px -1px 0 #000000, 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------------WHO----------------*/
+
+#body-who{
+  background: #C28E1B;
+  padding: 15px 20px;
+  filter: drop-shadow(0 0 2px);
+}
+
+/*---------------SORTIES--------------*/
+
+#sm{
+  padding: 30px 30px 10px;
+}
+ 
+
+.sm-img > a > img{
+  vertical-align: middle ;
+  display: inline;
+  text-align:center;
+  width: 170px;
+  height: 249.52px;
+  border: 1px solid #787878;
+  z-index: 1;
+}
+
+
+
+.azerty1{
+  margin-bottom: 5px;
+}
+
+.para > .sm-img{
+  text-align: center;
+  position: relative;
+  background-color:#1F1E1EF1;
+  padding: 15px 15px;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+  top: 40px;
+  left: 20px;
+  z-index: 1;
+}
+
+.para > h1{
+  position: absolute;
+  font-size: 40px;
+  top: 260px;
+  left: 230px;
+  z-index: 2;
+  filter: drop-shadow(0 0 1px rgb(53, 52, 52));
+}
+
+.sm-txt{
+  background-color: #1f1e1edd;
+  padding: 65px 20px 5px;
+}
+
+
+
+.sm-txt > .type-manga{
+  position: relative;
+  color: #787878;
+  margin: 3% 0 0;
+}
+
+#sm-demonslayer{
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.234), rgb(0, 0, 0)),url('../images/demonslayerbanner.jpg');
+  background-position: center top;
+  background-size: cover;
+  opacity: 0;
+  filter: drop-shadow(0 0 3px);
+}
+
+#sm-hxh{
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.048), rgb(0, 0, 0)),url('../images/hxhbanner_.jpg');
+  background-position: center top;
+  background-size: cover;
+  opacity: 0;
+  filter: drop-shadow(0 0 3px);
+  
+}
+
+#sm-fairytail{
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.014), rgb(0, 0, 0)),url('../images/fairytailbanner2.jpg');
+  background-position: center top;
+  background-size: cover;
+  opacity: 0;
+  filter: drop-shadow(0 0 3px);
+}
+
+#sm-overlord{
+  background: linear-gradient(rgba(0, 0, 0, 0.014), rgb(0, 0, 0)),url('../images/overlordbanner.jpg');
+  background-position: center top;
+  background-size: cover;
+  opacity: 0;
+  filter: drop-shadow(0 0 3px);
+}
+
+
+#aaa{
+  padding-top: 2em;
+}
+
+
+
+
+
