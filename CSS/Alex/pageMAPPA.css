@@ -23,11 +23,11 @@
 
 .imgLogo {
     width: 20%;
-    position: relative;
-    float: left;
-    bottom: 100px;
-    left: 50px;
-    border: 5px solid #fff;
+        height: auto;
+        position: relative;
+        bottom: 80px;
+        left: 3%;
+        border: 5px solid white;
 }
 
 .presentation {
@@ -36,58 +36,32 @@
 
 .description {
     position: relative;
-    font-family: 'Kanit';
-    left: 85px;
-    width: 88%;
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
+        bottom: 70px;
+        left: 5%;
+        width: 90%;
+        text-align: justify;
+        font-weight: bold;
+        font-size: 17px;
+        color: #fff;
 }
 
 .animePara {
-    padding: 10% 10% 5% 10%;
-    margin: 0% 0% 0% 15%;
-    bottom: 50px;
-    left: -20%;
-    width: 90%;
     position: relative;
-    font-family: 'Kanit';
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-}
-
-.synopsis {
-    position: relative;
-    margin: -5% 5% 0% 5%;
-    padding: 1%;
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
+        bottom: 70px;
+        left: 5%;
+        width: 90%;
+        text-align: justify;
+        font-weight: bold;
+        font-size: 17px;
+        padding-bottom: 1.5%;
+        color: #fff;
 }
 
 h1 {
-    margin: 0% 0% 10% 0%;
-    text-align: center;
-    color: #fff;
-    font-family: 'Kanit';
-    border: 5px solid RGB(0, 106, 57);
-    border-radius: 100px;
-}
-
-h2 {
-    margin: -1% 0% 5% 0%;
-    padding: 3% 0% 3% 0%;
+    margin: -3% 0% 5% 0%;
     text-align: center;
     color: black;
     font-family: 'Kanit';
-    font-size: 200%;
-    background-color: #fff;
 }
 
 h4 {
@@ -97,127 +71,52 @@ h4 {
     font-family: 'Kanit';
 }
 
-.personnage1 {
-    width: 16%;
-    float: right;
-    position: relative;
-    bottom: 45px;
-    left: 10px;
-}
-
-.descPersonnage1 {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
+a {
     color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
-    margin: -5% 5% 0% 5%;
-    padding: 3%;
-}
-
-.personnage2 {
-    width: 15%;
-    float: left;
-    position: relative;
-    bottom: 23px;
-    right: 10px;
-}
-
-.descPersonnage2 {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
-    margin: -5% 5% 10% 5%;
-    padding: 2%;
-}
-
-.personnage3 {
-    width: 15%;
-    float: left;
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-}
-
-.descPersonnage3 {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
-    margin: -5% 5% 10% 5%;
-    padding: 2% 2% 5% 2%;
-}
-
-.personnage4 {
-    width: 15%;
-    float: left;
-    position: relative;
-    bottom: 30px;
-    right: 10px;
-}
-
-.descPersonnage4 {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
-    margin: -5% 5% 10% 5%;
-    padding: 2% 2% 7% 2%;
-}
-
-.personnage5 {
-    width: 15%;
-    float: left;
-    position: relative;
-    bottom: 27px;
-    right: 10px;
-}
-
-.descPersonnage5 {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
-    margin: -5% 5% 10% 5%;
-    padding: 2% 2% 7% 2%;
-}
-
-.personnage6 {
-    width: 15%;
-    float: left;
-    position: relative;
-    bottom: 10px;
-    right: 10px;
-}
-
-.descPersonnage6 {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 19px;
-    color: #fff;
-    background-color: rgb(168, 168, 168);
-    border-radius: 10px;
-    margin: -5% 5% 10% 5%;
-    padding: 2% 2% 7% 2%;
 }
 
 video {
-    margin-left: -2.55%;
-    padding: 0% 0% 5% 0%;
-    width: 105%;
+    width: 90%;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2%;
 }
 
 .trailer {
-    background-color: rgb(168, 168, 168);
-    margin-bottom: 10%;
+    background-color: rgb(49, 45, 45);
+}
+
+.titretrailer {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-family: Kanit;
+    padding-top: 2%;
+    margin-top: 0;
+}
+
+.trailer>figure {
+    margin-bottom: 0;
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.retour {
+    background-color: rgb(34, 31, 31);
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px black;
+    text-align: center;
+    text-decoration: none;
 }
